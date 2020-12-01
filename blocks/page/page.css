@@ -1,0 +1,22 @@
+@font-face {
+  src: url('../../fonts/Inter-Regular.woff2');
+  font-family: 'Inter';
+}
+
+@font-face {
+  src: url('../../fonts/Inter-ExtraBold.woff2');
+  font-family: 'Inter';
+  font-weight: bold;
+}
+
+.page {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 320px;
+  padding: 0 calc(50% - 640px) 0;
+  background-color: #2A2C2F;
+  color: #fff;
+  font-family: 'Inter', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

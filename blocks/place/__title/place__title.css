@@ -1,0 +1,29 @@
+.place__title {
+  margin: 0 0 48px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    font-size: calc(42px + (72 - 42) * ( (100vw - 768px) / (1024 - 768) ));
+    line-height: calc(46px + (76 - 46) * ( (100vw - 768px) / (1024 - 768) ));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    margin-bottom: calc(32px + (48 - 32) * ( (100vw - 320px) / (768 - 320) ));
+    font-size: calc(32px + (42 - 32) * ( (100vw - 320px) / (768 - 320) ));
+    line-height: calc(35px + (46 - 35) * ( (100vw - 320px) / (768 - 320) ));
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__title {
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
