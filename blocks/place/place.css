@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    padding-top: 0 calc(73px + (80 - 73) * ( (100vw - 768px) / (1024 - 768) ));;
+    padding-top: 0 calc(73px + (80 - 73) * ( (100vw - 768px) / (1024 - 768) ));
     grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
     gap: 0 calc(28px + (32 - 28) * ( (100vw - 768px) / (1024 - 768) ));
   }
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    padding-top: calc(50px + (73 - 50) * ( (100vw - 535px) / (768 - 535) ));;
+    padding-top: calc(50px + (73 - 50) * ( (100vw - 535px) / (768 - 535) ));
     grid-template-columns: minmax(240px, 340px) minmax(252px, 352px);
     gap: 0 calc(24px + (28 - 24) * ( (100vw - 535px) / (768 - 535) ));
   }
