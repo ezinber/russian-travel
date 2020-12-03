@@ -1,9 +1,10 @@
 .footer__link {
-  margin: 0 0 0 18px;
+  margin: 0 18px 0 0;
   font-weight: normal;
   font-size: 16px;
   line-height: 112%;
   color: #fff;
+  display: inline-block;
   text-decoration: none;
   transition: opacity .2s linear;
 }
@@ -12,13 +13,9 @@
   opacity: 80%;
 }
 
-.footer__link:first-child {
-  margin: 0;
-}
-
 @media screen and (max-width: 700px) {
   .footer__link {
-    margin: 32px 0 0;
+    margin: 0 0 32px;
     font-size: 24px;
     line-height: 100%;
   }

@@ -1,7 +1,4 @@
 .header__logo {
-  background-image: url(../../../images/header-logo.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 176px;
   min-width: 142px;
 }

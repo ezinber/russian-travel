@@ -3,7 +3,6 @@
   padding-top: 28px;
   max-width: 1184px;
   min-width: 288px;
-  max-height: 52px;
   min-height: 42px;
   display: flex;
   justify-content: space-between;
@@ -25,7 +24,12 @@
   .header {
     padding-top: calc(16px + (28 - 16) * ( (100vw - 320px) / (768 - 320) ));
     width: calc(288px + (720 - 288) * ( (100vw - 320px) / (768 - 320) ));
-    max-height: calc(42px + (52 - 42) * ( (100vw - 320px) / (768 - 320) ));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding-top: 16px;
   }
 }
 
