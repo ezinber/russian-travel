@@ -1,5 +1,7 @@
 # Путешествия по России
 
+[Демо на Github Pages](https://ezinber.github.io/russian-travel/)
+
 Одностраничный сайт, посвящённый путешествиям по России и описывающий наиболее интересные туристические направления.
 
 ![russian-travel](https://user-images.githubusercontent.com/73654760/116003051-160e1100-a605-11eb-808e-3d685143782c.gif)
@@ -18,7 +20,5 @@
 - методология web-разработки **БЭМ.**
 
 ***
-
-Страница проекта: https://ezinber.github.io/russian-travel/
 
 Автор: Березин Михаил
